@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    background-color: #1f2937;
 }
 
 
@@ -62,7 +63,7 @@ body {
     margin: 0;
 }
 
-.hero-left a {
+.button-a {
     background-color: #3882f6;
     padding: 8px 32px;
     border-radius: 8px;
@@ -131,4 +132,47 @@ body {
 .full-quote h3 {
     font-size: 24px;
     text-align: right;
+}
+
+#body-four {
+    background-color: #f9faf8;
+    height: 520px;
+}
+
+.action-call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 920px;
+    padding: 64px 144px;
+    background-color: #3882f6;
+    border-radius: 24px;
+}
+
+#button-two {
+    border: 2px solid #f9faf8;
+    height: 20px;
+}
+
+.text h3 {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.text p {
+    font-size: 18px;
+    color:#e5e7eb;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    font-size: 18px;
 }
